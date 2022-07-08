@@ -1,0 +1,19 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "powerplatform-vscode.debug",
+			"request": "launch",
+			"name": "Launch Control",
+			"url": "https://SOME_ORG.crm.dynamics.com/main.aspx?appid=00000000-0000-0000-0000-000000000000&pagetype=entityrecord&etn=account&id=00000000-0000-0000-0000-000000000000",
+			"webRoot": "${workspaceFolder}",
+			"renderFullScreen": false,
+			"controlName": "cc_SampleNamespace.TableControl",
+			"file": "out/controls/TableControl/bundle.js",
+			"tabName": "Sample Control Tab"
+		}
+	]
+}
